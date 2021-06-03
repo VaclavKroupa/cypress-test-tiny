@@ -1,1 +1,13 @@
-{}
+{    
+    "baseUrl": "https://prague.test.tyrecheck.com/incenter2/#/",
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 60000,    
+    "viewportWidth": 1200,
+    "viewportHeight": 660,        
+    "video": false,
+    "videoCompression": 40,
+    "videoUploadOnPasses": false,
+    "pageLoadTimeout": 120000,
+    "responseTimeout": 60000
+  }
+  
