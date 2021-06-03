@@ -7,6 +7,15 @@ describe("page", () => {
       timeout: 360000,
     })
 
+      .get(".q-loading", { log, timeout: 360000 })
+      .should("not.exist")
+
+      .get('[data-qa-id="pageLoginLanding"]', { log, timeout: 360000 })
+      .should("be.visible")
+
+      .get(".q-loading", { log, timeout: 360000 })
+      .should("not.exist")
+
       .get('[data-qa-id="btnUrlOpen"]')
       .should("be.visible")
       .click()
